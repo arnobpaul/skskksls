@@ -26,8 +26,8 @@ async def start_handler(_, event: Message):
 	await event.reply_photo("https://telegra.ph/file/19eeb26fa2ce58765917a.jpg",
                                 caption=Config.START_MSG.format(event.from_user.mention),
                                 reply_markup=InlineKeyboardMarkup([
-					[InlineKeyboardButton('❤ Donation Link', url='https://www.telegram.dog/greymatters_about')],
-					[InlineKeyboardButton("Updates 𝙲𝚑𝚊𝚗𝚗𝚊𝚕", url="https://t.me/Technical_JR")],
+					[InlineKeyboardButton('Join Group ✅', url='https://t.me/iPopcornGroup')],
+					[InlineKeyboardButton("Updates 𝙲𝚑𝚊𝚗𝚗𝚊𝚕 ✅", url="https://t.me/Technical_JR")],
 					[InlineKeyboardButton("Donation", callback_data="Help_msg"),
                                         InlineKeyboardButton("About", callback_data="About_msg")]
 				]))
